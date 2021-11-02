@@ -1,0 +1,94 @@
+.item {
+display: flex;
+padding: 2vh 1vw 2vh 1vw;
+margin: 2vh 1vw 0vh 1vw;
+height: 10vh;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+background-color: white;
+border-radius: 10px;
+color: black;
+
+}
+.txtholder{
+  display: block;
+  width: 47vw;
+}
+.time{
+  font-size: 1vw;
+  margin: auto;
+}
+.canceled{
+  display: flex;
+  padding: 2vh 1vw 2vh 1vw;
+margin: 2vh 1vw 0vh 1vw;
+  height: 10vh;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(235,55,55);
+  border-radius: 10px;
+  color: white;
+  
+  
+}
+.done{
+  display: flex;
+  padding: 2vh 1vw 2vh 1vw;
+  margin: 2vh 1vw 0vh 1vw;
+  height: 10vh;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(29,233,15);
+  border-radius: 10px;
+  color: white;
+  
+    
+}
+.txt{
+  margin: 1vh 14vw 1vh 1vw ;
+  font-size: 2vw;
+}
+.icon12{
+  
+  padding: 2vh 1vw 0vh 1vw;
+  margin: 1vh 1vw 1vh 20vw !important;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 1.5vw;
+  margin: 1vh;
+  color: rgb(235,55,55);
+  cursor: pointer;
+}
+.icon1{
+  padding: 2vh 1vw 0vh 1vw;
+  background-color: rgb(235,55,55);
+  border-radius: 50%;
+  font-size: 1.5vw;
+margin: 1vh 0vw 1vh 1vw;
+color: white;
+cursor: pointer;
+}
+.icon2{
+  padding: 2vh 1vw 0vh 1vw;
+  background-color: rgb(66,146,216);
+  border-radius: 50%;
+  font-size: 1.5vw;
+  margin: 1vh 0vw 1vh 1vw;
+  color: white;
+  cursor: pointer;
+}
+.icon3{
+  padding: 2vh 1vw 0vh 1vw;
+  background-color: rgb(235,55,55);
+  border-radius: 50%;
+  font-size: 1.5vw;
+  margin: 1vh 0vw 1vh 1vw;
+  color: white;
+  cursor: pointer;
+}
+.icon4{
+  padding: 2vh 1vw 0vh 1vw;
+  background-color: rgb(29,233,15);
+  border-radius: 50%;
+  font-size: 1.5vw;
+  margin: 1vh 0vw 1vh 1vw;
+  color: white;
+  cursor: pointer;
+}

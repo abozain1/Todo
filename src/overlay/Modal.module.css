@@ -1,0 +1,101 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 200000;
+  background-color: rgb(229,229,229);
+
+  /* background:rgba(0,0,0,0.8); */
+  /* background: transparent; */
+  opacity: .7;
+  /* filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px); */
+  
+  }
+  
+  /* .modal {
+    position: fixed;
+    top: 15vh;
+    left: 30%;
+    width: 40%;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 14px;
+    z-index: 3000000000;
+    animation: slide-down 300ms ease-out forwards;
+    font-size: 2vw;
+  } */
+  
+  
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      /* transform: translateY(-3rem); */
+    }
+    to {
+      opacity: 1;
+      /* transform: translateY(0); */
+    }
+  }
+  .form {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  animation: slide-down 300ms ease-in;
+  position: fixed;
+  top: 25vh;
+  left: 14%;
+   width: 73vw; 
+   height: 15vh; 
+background-color:#FDFDFD;
+  margin: 8vh 0vw 0vh 0vw;
+  z-index: 3000000000;
+  display: flex;
+  border-radius: 15px;
+  
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.form input {
+ height: 2vh;
+  width: 40vw;
+ border: 0px;
+ background-color: rgb(243,243,243);
+ margin: 4vh 0vw 0vh 2vw;
+ border-radius: 30px;
+ padding: 1.3vw;
+ font-size: 2vw;
+
+}
+
+.cancel{
+  height: 6vh;
+  width: 9vw;
+  border-radius: 7px;
+  background-color: rgb(253,229,229);
+  color: rgb(235,55,55);
+  font-size: 1vw;
+  margin: 5vh 0vw 1vh 5vw;
+  border: 0px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.done{
+  height: 6vh;
+  width: 9vw;
+  border-radius: 7px;
+  background-color: rgb(222,247,239);
+  color: rgb(0,163,137);
+  font-size: 1vw;
+  margin: 5vh 0vw 1vh 0.5vw;
+  border: 0px;
+  font-weight: bolder;
+  cursor: pointer;
+}

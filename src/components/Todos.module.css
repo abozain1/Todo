@@ -1,0 +1,30 @@
+
+.cart{
+  height: 70vh;
+  width: 70vw;
+  margin: 2vh 0vw 0vh 14vw;
+  background-color: white;
+  position: relative;
+  padding: 2vh 2vw 0vh 2vw;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.holder{
+  position: relative;
+height: 50vh;
+  overflow-y: scroll;
+  margin: 2vh 0vw 0vh 0vw;
+}
+.btn{
+  position: absolute;
+  bottom: 3vh;
+  right: 48%;
+  cursor: pointer;
+  background-color:#45E220 ;
+  width: 5vw;
+  height:  11vh;
+  border-radius: 50%;
+  color: white;
+  font-size: 3vw;
+  border: 0px;
+}
